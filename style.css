@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+    width: 100%;
+    background: #fff;
+    
+}
+.header-area .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+.header-area .header h1{
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace;
+}
+.header-area .header button{
+    font-weight: medium;
+    padding: 10px 16px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+}
+/* banner area */
+.banner-area{
+    background-image: url(./assets/Hero-bg.png);
+    text-align: center;
+    padding: 26px;
+}
+.banner-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace;
+}
+.banner-content p{
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
+    padding: 16px 0;
+}
+.banner-content button {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Azeret Mono", monospace;
+    border-radius: 6px;
+}
+
+/* why development section  */
+.development{
+    width: 100%;
+}
+.development-text{
+    text-align: center;
+    padding: 46px 0;
+}
+.development-text h1 {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace;
+}
+.development-text h1 {
+    font-size: 32px;
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
+}
+.development-hero {
+    width: 75%;
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    border: 2px;
+    border-color: black;
+    border-radius: 15px;
+}
+.development-content {
+    padding: 20px;
+    width: 90%;
+    background: #e5e5e54a;
+    margin: 60px auto;
+    border-radius: 12px;
+}
+.development-hero-text{
+    gap: 5px;
+}
+.development-hero .development-hero-text h1{
+    font-family: "Azeret Mono", monospace;
+    color: #727171;
+}
+.development-hero .development-hero-text p{
+    font-family: "Azeret Mono", monospace;
+    color: #727171;
+    margin: 20px 0;
+}
+.development-hero .development-hero-text button{
+    font-family: "Azeret Mono", monospace;
+    color: #5d5c5e;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 22px;
+    background: #fff;
+}
+/* inspiration-area  */
+.inspiration-area{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 17px;
+}
+.inspiration-area .inspiration-text h1{
+    font-family: "Azeret Mono", monospace;
+    margin-bottom: 10px;
+}
+.inspiration-area .inspiration-text p{
+    font-family: "Azeret Mono", monospace;
+    color: #727171;
+    margin-bottom: 10px;
+}
+.inspiration-frame {
+    width: 75%;
+    margin: auto;
+    border: 2px solid #0D1320;
+    border-radius: 22px;
+    padding: 20px;
+}
+.inspiration-frame iframe {
+    border-radius: 22px;
+}
+/* My Current Target */
+.current-target-area{
+    width: 80%;
+    margin: auto;
+}
+.current-target-text {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.current-target-text h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0D1321;
+}
+.current-target-text h1{
+      color: #505152;
+}
+.current-target-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+}
+/* box-01  */
+.current-box-01{
+    background-color: #FF4C1E0D;
+    padding: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+.current-box-01 h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.current-box-01 a{
+    color: #0D1321;
+    font-weight: bold;
+}
+/* box 02  */
+.current-box-02{
+    background-color: #004CE80D;
+    padding: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+.current-box-02 h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.current-box-02 a{
+    color: #0D1321;
+    font-weight: bold;
+}
+/* box - 03 . */
+.current-box-03{
+    background-color: #FFDF000D;
+    padding: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+.current-box-03 h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.current-box-03 a{
+    color: #0D1321;
+    font-weight: bold;
+}
+/* my next target  */
+.next-target{
+    width: 80%;
+    margin: auto;
+   
+}
+.next-target-content{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.next-target-content h1{
+    font-weight: bold;
+}
+/* react js  */
+.react{
+    display: flex;
+    padding: 20px;
+    border: 2px solid #0D1321;
+    border-radius: 8px;
+}
+.react-logo{
+    padding: 0 20px;
+}
+.react-content a{
+    color: #000;
+}
+/* i need support area  */
+.need-support{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 313px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/handshake.jpg);
+    opacity: 0.8;
+   
+}
+.need-content h1, p{
+    color: #fff;
+}
+.input-01{
+    width: full;
+    padding: 15px  145px 15px 9px;
+    border-radius: 7px;
+    font-size: 20px;
+    text-align: start;
+    font-family: 'Courier New', Courier, monospace;
+}
+.submit{
+    padding: 15px  41px 13px 9px;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #0D1321;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* footer area  */
+.footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-top: 106px;
+}
+.footer-content h1{
+    font-size: 23px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer-icon {
+    font-size: 36px;
+}
+
+i.fa-brands.fa-facebook {
+    color: #0c8bcc;
+}
+
+i.fa-brands.fa-linkedin {
+    color: #048cd0;
+}
+/* responsive style  */
+@media screen and (max-width: 859px) {
+    .header-area .header {
+        flex-direction: column;
+    }
+    .development-hero{
+        flex-direction: column;
+    }
+    .development-hero {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .current-target-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .submit{
+        width: 80%;
+    }
+    .footer{
+        flex-direction: column;
+      
+    }
+    .footer-icon {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .header-area .header h1{
+        text-align: center;
+    }
+  }
+
