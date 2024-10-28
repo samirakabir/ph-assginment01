@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 .header-area{
     width: 100%;
@@ -61,6 +62,14 @@
     font-size: 32px;
     font-weight: bold;
     font-family: "Azeret Mono", monospace;
+}
+.banner-content button a {
+    color: #fff;
+}
+
+
+i.fa-brands.fa-github {
+    color: #000000;
 }
 .development-text h1 {
     font-size: 32px;
